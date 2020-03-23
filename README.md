@@ -1,1 +1,1 @@
-# XMY
+# Statistical Analysis for Political Science
