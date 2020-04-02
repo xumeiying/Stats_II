@@ -14,12 +14,12 @@
 <br>
 
 \begin{equation}
-\begin{align*}
+\begin{align}
   \hat \beta_{OLS} &= (X\prime X)^{-1}X\prime Y \\
   &= (X\prime X)^{-1}X\prime (X\beta + \epsilon)\\
   &= (X\prime X)^{-1}X\prime X\beta + (X\prime X)^{-1}X\prime \epsilon \\
   &= \beta + (X\prime X)^{-1} X\prime \epsilon 
-\end{align*}
+\end{align}
 \end{equation}
 
 <br>
