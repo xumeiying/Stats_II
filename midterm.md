@@ -14,25 +14,25 @@
 <br>
 
 \begin{equation}
-\begin{align}
+\begin{aligned}
 \hat \beta_{OLS} &= (X\prime X)^{-1}X\prime Y \\
 &= (X\prime X)^{-1}X\prime (X\beta + \epsilon)\\
 &= (X\prime X)^{-1}X\prime X\beta + (X\prime X)^{-1}X\prime \epsilon \\
 &= \beta + (X\prime X)^{-1} X\prime \epsilon 
-\end{align}
+\end{aligned}
 \end{equation}
 
 <br>
 
 \begin{equation}
-\begin{align}
+\begin{aligned}
 Var(\hat \beta_{OLS}) &= Var(\beta + (X\prime X)^{-1} X\prime \epsilon)\\
 &= Var((X\prime X)^{-1} X\prime \epsilon) \\
 &= (X\prime X)^{-1} X\prime Var(\epsilon) ((X\prime X)^{-1} X\prime)\prime \\
 &=(X\prime X)^{-1} X\prime Var(\sigma^2 I) X(X\prime X)^{-1}\\
 &= \sigma^2 (X\prime X)^{-1} (X\prime X) (X\prime X)^{-1}\\
 &= \sigma^2 (X\prime X)^{-1}
-\end{align}
+\end{aligned}
 \end{equation}
 
 Therefore, OLS is efficient when $Var(\hat \beta_{OLS}) \leq Var(\beta^{*})$. For this to exist,
