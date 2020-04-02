@@ -1,5 +1,5 @@
 
-### GOV 391L STATS II Midterm
+# GOV 391L STATS II Midterm
 
 - 1) All of the questions can be answerd in no more than 2-3 sencenses.
 - 2) There isn't always one single correct answer to a question. 
@@ -9,17 +9,17 @@
 ---
 
 
-##2. Explain what it means that OLS is efficient? When is it not?
+## 2. Explain what it means that OLS is efficient? When is it not?
 
 <br>
 
 \begin{equation}
-\begin{aligned}
-\hat \beta_{OLS} &= (X\prime X)^{-1}X\prime Y \\
-&= (X\prime X)^{-1}X\prime (X\beta + \epsilon)\\
-&= (X\prime X)^{-1}X\prime X\beta + (X\prime X)^{-1}X\prime \epsilon \\
-&= \beta + (X\prime X)^{-1} X\prime \epsilon 
-\end{aligned}
+\begin{align*}
+  \hat \beta_{OLS} &= (X\prime X)^{-1}X\prime Y \\
+  &= (X\prime X)^{-1}X\prime (X\beta + \epsilon)\\
+  &= (X\prime X)^{-1}X\prime X\beta + (X\prime X)^{-1}X\prime \epsilon \\
+  &= \beta + (X\prime X)^{-1} X\prime \epsilon 
+\end{align*}
 \end{equation}
 
 <br>
