@@ -5,7 +5,7 @@ import numpy as np
 from numpy import linalg as LA
 ```
 
-# 8 Eigenvalues and Eigenvectors
+#8 Eigenvalues and Eigenvectors
 
 ---
 
